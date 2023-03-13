@@ -1,0 +1,31 @@
+<svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_932_2168)">
+    <defs>
+        <radialGradient id="paint0_radial_932_2168" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12.5 -54.5) rotate(69.3915) scale(191.772)">
+            <stop stop-color="#E6EFFE"/>
+            <stop offset="1" stop-color="white"/>
+        </radialGradient>
+        <radialGradient id="paint1_radial_932_2168" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(310 480.5) rotate(92.5692) scale(312.314)">
+            <stop stop-color="#E6EFFE"/>
+            <stop offset="1" stop-color="white"/>
+        </radialGradient>
+        <linearGradient id="paint2_linear_932_2168" x1="394" y1="406" x2="-12.8495" y2="-30.7792" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E6EFFE"/>
+            <stop offset="1" stop-color="white"/>
+        </linearGradient>
+        <linearGradient id="paint3_linear_932_2168" x1="128" y1="331.667" x2="198.359" y2="639.621" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E6EFFE"/>
+            <stop offset="1" stop-color="white"/>
+        </linearGradient>
+        <clipPath id="clip0_932_2168">
+            <rect width="375" height="812" fill="white"/>
+        </clipPath>
+    </defs>
+
+    <rect width="375" height="812" fill="white"/>
+<path d="M22 246C80.5422 246 128 198.542 128 140C128 81.4578 80.5422 34 22 34C-36.5422 34 -84 81.4578 -84 140C-84 198.542 -36.5422 246 22 246Z" fill="url(#paint0_radial_932_2168)"/>
+<path d="M310 832C368.542 832 416 784.542 416 726C416 667.458 368.542 620 310 620C251.458 620 204 667.458 204 726C204 784.542 251.458 832 310 832Z" fill="url(#paint1_radial_932_2168)"/>
+<path d="M-149 354L187 154" stroke="url(#paint2_linear_932_2168)" stroke-width="100" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M128 614L493 397" stroke="url(#paint3_linear_932_2168)" stroke-width="100" stroke-miterlimit="10" stroke-linecap="round"/>
+</g>
+</svg>

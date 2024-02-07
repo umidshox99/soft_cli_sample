@@ -26,25 +26,25 @@ class AppFunctions {
     FocusManager.instance.primaryFocus?.unfocus();
   }
 
-  static launchStore() {
-    LaunchReview.launch(androidAppId: Constants.androidPackageName, iOSAppId: Constants.iosAppId, writeReview: false, isiOSBeta: true);
-  }
+  // static launchStore() {
+  //   LaunchReview.launch(androidAppId: Constants.androidPackageName, iOSAppId: Constants.iosAppId, writeReview: false, isiOSBeta: true);
+  // }
 
   static double bottomNavigationHeight(BuildContext context) {
     return MediaQuery.of(context).padding.bottom + 66;
   }
 
-  static Future<UpdateVersion?> checkVersion() async {
-    final result = await getItInstance<RemoteDataSource>().checkVersion(
-      appName: Platform.isAndroid ? Constants.androidApp : Constants.iosApp,
-    );
-    if (result.data is UpdateVersionResponse) {
-      return result.data?.data;
-    } else {
-      getItInstance<NavigationRoute>().showError(LocaleKeys.somethingWrong.tr());
-      return null;
-    }
-  }
+  // static Future<UpdateVersion?> checkVersion() async {
+  //   final result = await getItInstance<RemoteDataSource>().checkVersion(
+  //     appName: Platform.isAndroid ? Constants.androidApp : Constants.iosApp,
+  //   );
+  //   if (result.data is UpdateVersionResponse) {
+  //     return result.data?.data;
+  //   } else {
+  //     getItInstance<NavigationRoute>().showError(LocaleKeys.somethingWrong.tr());
+  //     return null;
+  //   }
+  // }
 
   static double getImageBottomSheetHeight(BuildContext context) {
     return height(context) * 0.65;

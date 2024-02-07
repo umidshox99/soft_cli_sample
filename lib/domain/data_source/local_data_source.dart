@@ -8,4 +8,5 @@ mixin LocalDataSource {
   Future<void> setLanguage(String language);
 
   Future<void> logout();
+
 }

@@ -3,8 +3,6 @@ class Constants {
 
   static const appName = 'NoInSoft';
   static const androidApp = 'noinsoft_android';
-  static const iosApp = 'noinsoft_ios';
-  static const androidPackageName = 'com.asakabank.noinsoft';
   static const iosAppId = '';
   static const baseUrl = "https://as/api";
   static const baseFileUrl = "http://as/";
@@ -44,8 +42,4 @@ class Constants {
   static const introCount = 3;
   static const smsCodeLength = 6;
   static const expansionFactor = 2.0;
-  static const operatorCall = "tel:+998937725598";
-  static const operatorTelegram = 'https://t.me/abror_khurramov';
-  static const operatorMail = 'mailto:abrorxurramov1@gmail.com';
-  static const onlineTrainTicket = 'https://chipta.railway.uz/uz/home';
 }

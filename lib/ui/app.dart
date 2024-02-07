@@ -78,37 +78,7 @@ class _AppState extends State<App> with BaseDialogs {
     );
   }
 
-  void checkLatestVersion(Box box) async {
-    try {
-      final updateVersion = await AppFunctions.checkVersion();
-      PackageInfo packageInfo = await PackageInfo.fromPlatform();
-      Version currentVersion = Version.parse(packageInfo.version);
-      Version appVersion =
-          Version.parse(updateVersion?.version ?? Constants.defaultVersion);
-      if (appVersion > currentVersion) {
-        if (updateVersion?.isRequired == true) {
-          showCompulsoryUpdateDialog(
-              _navigationRoute.navigatorKey.currentContext!);
-        } else if (box.get(updateVersion?.version) != true) {
-          final result = await showOptionalUpdateDialog(
-              _navigationRoute.navigatorKey.currentContext!);
-          if (result == true) {
-            box.put(updateVersion?.version, result);
-          }
-        }
-      } else {}
-    } on Exception catch (exception) {
-      debugPrint(exception.toString());
-    }
-  }
 
-  // void checkBackgroundNotification() async {
-  //   RemoteMessage? remoteMessage =
-  //       await FirebaseMessaging.instance.getInitialMessage();
-  //   if (remoteMessage != null) {
-  //     if (remoteMessage.data[Constants.page] == Constants.news) {}
-  //   }
-  // }
 
   @override
   Widget build(BuildContext context) {
